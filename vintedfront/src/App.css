@@ -1,0 +1,158 @@
+header {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 60px;
+  padding-right: 40px;
+}
+main img {
+  width: 100%;
+  height: 455px;
+  object-fit: cover;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-icon {
+  position: absolute;
+  top: 33%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 600px;
+  height: 40px;
+  padding-left: 30px;
+  background-color: #f5f6f7;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+span {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+button {
+  width: 42px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #2db0ba;
+  display: flex;
+}
+.buttontotal {
+  margin-right: 25px;
+}
+.circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  border: black solid 1px;
+  display: flex;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.fork {
+  background-color: #cccccc;
+  width: 300px;
+  height: 5px;
+}
+
+.buttonFork1 {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  margin-top: -8px;
+  border: white solid 1px;
+}
+
+.buttonFork2 {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: -8px;
+  border: white solid 1px;
+}
+
+.fork span {
+  margin-top: -25px;
+  margin-right: 20px;
+  border: #2db0ba solid 1px;
+  border-radius: 3px;
+  padding: 2px;
+  background-color: #2db0ba;
+  color: white;
+  font-size: 12px;
+}
+
+.signlog {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.signlog div {
+  margin-top: 25px;
+  background-color: white;
+  border: #2db0ba solid 1px;
+  color: #2db0ba;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.sell {
+  margin-left: 100px;
+  color: white;
+  background-color: #2db0ba;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.headermain {
+  margin-bottom: 500px;
+  position: relative;
+}
+
+.ready {
+  border: 1px solid white;
+  width: 200px;
+  margin-top: -250px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .ready span {
+  background-color: white;
+  font-size: 35px;
+} */
